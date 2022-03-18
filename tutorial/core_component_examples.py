@@ -825,7 +825,7 @@ from datetime import datetime as dt
 
 dcc.DatePickerRange(
     is_RTL=True,
-    first_day_of_week=3,
+    first_day_of_week=2,
     start_date=dt(2017,6,21)
 )''', style=styles.code_container),
     html.Hr(),
@@ -1061,7 +1061,7 @@ from datetime import datetime as dt
 
 dcc.DatePickerSingle(
     is_RTL=True,
-    first_day_of_week=3,
+    first_day_of_week=2,
     date=dt(2017,6,21)
 )'''),
 
